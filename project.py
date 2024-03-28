@@ -19,7 +19,7 @@ x_column = st.selectbox('Select column for x-axis:', column_name)
 y_column = st.selectbox('Select column for y-axis:', column_names)
 plt.figure(figsize=(10, 6))
 
-st.markdown("<h1 style = 'color: #2c5f2dff; text-align: center; font-family: Lucida Bright'>PROJECT BACKGROUND INFORMATION</h1>", unsafe_allow_html = True)
+st.markdown("<h3 style = 'color: #2c5f2dff; text-align: center; font-family: Lucida Bright'>PROJECT BACKGROUND INFORMATION</h3>", unsafe_allow_html = True)
 st.write("The primary goal of this project is to develop a robust and data-driven machine learning model for crop recommendation. By leveraging historical data on soil characteristics, climate patterns, crop performance, and market demand, the model aims to provide farmers with tailored recommendations for crop selection. This will empower farmers to make informed decisions based on objective insights, leading to improved yields, resource efficiency, and profitability.")
 
 
