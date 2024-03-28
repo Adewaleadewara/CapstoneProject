@@ -19,6 +19,10 @@ x_column = st.selectbox('Select column for x-axis:', column_name)
 y_column = st.selectbox('Select column for y-axis:', column_names)
 plt.figure(figsize=(10, 6))
 
+st.header('Project Background Information', divider = True)
+st.write("The primary goal of this project is to develop a robust and data-driven machine learning model for crop recommendation. By leveraging historical data on soil characteristics, climate patterns, crop performance, and market demand, the model aims to provide farmers with tailored recommendations for crop selection. This will empower farmers to make informed decisions based on objective insights, leading to improved yields, resource efficiency, and profitability.")
+
+
 
 fig1 = px.bar(data_frame = ds,  x = x_column, 
                     y = y_column, width = 1000, height = 450, title = f'{x_column} by {y_column} Crop')
