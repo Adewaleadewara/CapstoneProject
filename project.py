@@ -11,6 +11,11 @@ st.image('pngwing.com (19).png', use_column_width=True)
 st.markdown("<h1 style = 'color: #2c5f2dff; text-align: center; font-family: Lucida Bright'>CROP RECOMMENDATION SYSTEM</h1>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
 
+st.markdown("<h3 style = 'color: #2c5f2dff; text-align: center; font-family: Lucida Bright'>PROJECT BACKGROUND INFORMATION</h3>", unsafe_allow_html = True)
+st.write("The primary goal of this project is to develop a robust and data-driven machine learning model for crop recommendation. By leveraging historical data on soil characteristics, climate patterns, crop performance, and market demand, the model aims to provide farmers with tailored recommendations for crop selection. This will empower farmers to make informed decisions based on objective insights, leading to improved yields, resource efficiency, and profitability.")
+
+
+
 ds = pd.read_csv('Crop_recommendation (1).csv')
 column_names = ['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall']
 column_name = ['label']
