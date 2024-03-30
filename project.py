@@ -15,10 +15,6 @@ st.markdown("<h3 style = 'color: #2c5f2dff; text-align: center; font-family: Luc
 st.write("The primary goal of this project is to develop a robust and data-driven machine learning model for crop recommendation. By leveraging historical data on soil characteristics, climate patterns, crop performance, and market demand, the model aims to provide farmers with tailored recommendations for crop selection. This will empower farmers to make informed decisions based on objective insights, leading to improved yields, resource efficiency, and profitability.")
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0420dcc428ff1a6fc8b3e2ee3dfb6ad192cbb87b
 ds = pd.read_csv('Crop_recommendation (1).csv')
 column_names = ['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall']
 column_name = ['label']
